@@ -30,12 +30,15 @@ html {
 
 .navbar {
     background: #fff;
-    height: 85px;
     display: flex;
-    padding: 0 10% !important;
+    padding: 1rem ;
     align-items: center;
     justify-content: space-between;
     box-shadow: 0 1px 4px 0 rgba(1, 1, 1, 0.1);
+}
+
+.container {
+    padding: 1rem;
 }
 
 .nav-link {
@@ -56,22 +59,20 @@ html {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    padding: 0 10%;
 }
 
 .home .image {
     padding-top: 4rem;
-    flex: 1 1 40rem;
+}
+.home .image img {
+    width: 100%;
 }
 
 .image>img {
-    width: 700px;
-    padding: 0 105;
     animation: bounceTop_01 3s infinite;
 }
 
 .home .content {
-    padding: 0 10%;
     flex: 1 1 40rem;
 }
 
@@ -127,11 +128,13 @@ html {
 
 #features {
     padding: 0% 5%;
-    box-shadow: 0 1px 4px 0 rgba(1, 1, 1, 0.1);
     border-radius: 10px;
-    margin-left: 10%;
-    margin-right: 10%;
     margin-top: 20px;
+}
+#features .feature-item {
+    box-shadow: 0 1px 4px 0 rgba(1, 1, 1, 0.1);
+    padding: 2rem;
+    height: 100%;
 }
 
 
@@ -215,7 +218,6 @@ html {
 }
 
 #facilities {
-    padding: 0 10%;
     margin-top: 10px;
 }
 
@@ -225,6 +227,7 @@ html {
 
 .facilities>img {
     border-radius: 20px;
+    width: 100%;
 }
 
 .imgfacilities {
@@ -331,7 +334,6 @@ html {
 
 /* testi */
 .testimoni {
-    padding: 0 10%;
     margin-top: 120px;
 }
 
@@ -353,8 +355,6 @@ html {
 }
 
 .carousel-item>center>.text {
-    padding-left: 10%;
-    padding-right: 10%;
     padding-top: 5%;
     padding-bottom: 0;
     font-size: 20px;
@@ -368,7 +368,6 @@ html {
 }
 
 .whychooseus {
-    padding: 0 10%;
 }
 
 #whychoose {
@@ -448,7 +447,6 @@ html {
         width: 250px;
         text-align: center;
         align-self: center;
-        margin: 10%;
     }
 
     .home .content {
